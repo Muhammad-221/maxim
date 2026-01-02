@@ -4,14 +4,14 @@ import ArrowComp from "../components/ArrowUp";
 import { useEffect, useState } from "react";
 
 export default function Landing({page}){
-    const [isScroll, setsScroll] = useState(false);
+    const [isScroll, setIsScroll] = useState(false);
     useEffect(() =>{
         const handleScroll = () =>{
             if(window.scrollY > 93){
-                setsScroll(true);
+                setIsScroll(true);
             }
             else{
-                setsScroll(false);
+                setIsScroll(false);
             }
         }
         window.addEventListener('scroll', handleScroll);

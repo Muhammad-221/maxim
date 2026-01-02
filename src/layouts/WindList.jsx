@@ -12,11 +12,11 @@ export default function WindowList({click, classlist}){
                 <i className="fa-solid fa-xmark" onClick={click}/>
             </div>
             <ul className="lists">
-                <a href="home" onClick={click}>Home</a>
-                <a href="about" onClick={click}>About</a>
-                <a href="services" onClick={click}>Services</a>
-                <a href="portfolio" onClick={click}>Portfolio</a>
-                <a href="team" onClick={click}>Team</a>
+                <a href="#home" onClick={click}>Home</a>
+                <a href="#about" onClick={click}>About</a>
+                <a href="#services" onClick={click}>Services</a>
+                <a href="#portfolio" onClick={click}>Portfolio</a>
+                <a href="#team" onClick={click}>Team</a>
                 <ListComp 
                     classN={"drop1"} 
                     click1={changeCollabse1} 
@@ -26,7 +26,7 @@ export default function WindowList({click, classlist}){
                     rotate2={isCollabsed2 ? "ro" : "hr"}
                     action2={isCollabsed2 ? "hs" : "hidden"} 
                 />
-                <a href="contact" onClick={click}>Contact</a>
+                <a href="#contact" onClick={click}>Contact</a>
             </ul> 
         </div>
     )
