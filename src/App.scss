@@ -6,10 +6,6 @@ body{
 }
 
 @font-face {
-    src: url(./assets/fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD.ttf);
-    font-family: Roboto Flex Thin;
-}
-@font-face {
     src: url(./assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
     font-family: Roboto Thin;
 }
@@ -62,7 +58,6 @@ body{
     --color-f13: rgb(181, 181, 181);
     --color-f14: rgb(241, 241, 241);
     
-    --font-rr : Roboto Flex Thin;
     --font-ri : Roboto Thin;
     --font-bb : Raleway;
     --font-bl : Roboto Light;
@@ -70,7 +65,7 @@ body{
 }
 a{
     text-decoration: none;
-    font-family: var(--font-rr);
+    font-family: var(--font-bl);
 }
 
 /********************************header********************************/
@@ -112,7 +107,7 @@ header{
             display: block;
             font-size: 16px;
             color: var(--color-f2);
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             cursor: pointer;
             i{
                 display: inline;
@@ -244,7 +239,7 @@ header{
                 display: block;
                 margin-bottom: 20px;
                 color: var(--color-f4);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 18px;
             }
             li{
@@ -254,7 +249,7 @@ header{
                 width: 100%;
                 margin-bottom: 20px;
                 color: var(--color-f4);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 18px;
                 position: relative;
                 i{
@@ -277,7 +272,7 @@ header{
                         margin-bottom: 20px;
                         a{
                             color: var(--color-f4);
-                            font-family: var(--font-rr)
+                            font-family: var(--font-bl)
                         }
                     }
                     .deeb{
@@ -364,7 +359,7 @@ header{
         }
         p{
             font-size: 25px;
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             margin: 10px 0 40px;
             color: var(--color-f1);
         }
@@ -420,7 +415,7 @@ header{
         color: var(--color-f3);
     }
     p{
-        font-family: var(--font-rr);
+        font-family: var(--font-bl);
         font-size: 16px;
         color: var(--color-f4);
     }
@@ -493,7 +488,7 @@ header{
         .prag p{
             margin-top: 10px;
             font-size: 15px;
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             color: var(--color-f4);
         }
         .prag p{
@@ -564,7 +559,7 @@ header{
             div{
                 font-size: 25px;
                 color: var(--color-b1);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 margin-bottom: 15px;
             }
             span{
@@ -574,7 +569,7 @@ header{
             }
             p{
                 color: var(--color-f6);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 line-height: 22px;
                 margin: 20px 0 0;
             }
@@ -641,7 +636,7 @@ header{
                 p{
                     color: var(--color-f3);
                     font-size: 16px;
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     margin-top: 10px;
                 }
             }
@@ -738,7 +733,7 @@ header{
                 p{
                     margin-top: 12px;
                     color: var(--color-f8);
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     transition: color .2s;
                 }
                 span{
@@ -835,7 +830,7 @@ header{
             border: none;
             margin: 5px;
             font-size: 18px;
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             color: var(--color-f4);
             transition: color .2s;
             &:hover{
@@ -1148,7 +1143,7 @@ header{
                 color: var(--color-f3);
             }
             p{
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 14px;
                 color: var(--color-f4);
             }
@@ -1178,7 +1173,7 @@ header{
                     border: solid 1.5px var(--color-b15);
                     outline: none;
                     font-size: 15px;
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     padding: 15px;
                 }
                 input:focus{
@@ -1190,7 +1185,7 @@ header{
                     border: solid 1.5px var(--color-b15);
                     outline: none;
                     font-size: 15px;
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     padding: 15px;
                 }
                 textarea:focus{
@@ -1205,7 +1200,7 @@ header{
                 border-radius: 5px;
                 background-color: var(--color-b1);
                 color: var(--color-f12);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 transition: background-color .5s;
                 &:hover{
                     background-color: var(--color-f10);
@@ -1213,7 +1208,7 @@ header{
             }
             
             p{
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 16px;
                 color: var(--color-f4);
                 margin-bottom: 10px;
@@ -1334,7 +1329,7 @@ footer{
                     display: block;
                     margin: 10px 0;
                     color: var(--color-f13);
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     font-size: 15px;
                     transition: color .5s;
                     i{
@@ -1356,7 +1351,7 @@ footer{
                 font-size: 17px;
             }
             p{
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 14px;
                 margin: 15px 0 25px;
             }
@@ -1373,7 +1368,7 @@ footer{
                     border-style: solid;
                     outline: none;
                     font-size: 15px;
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     padding: 15px;
                     border-radius: 5px 0 0 5px;
                 }
@@ -1404,7 +1399,7 @@ footer{
         padding: 25px 0;
         div{
             color: white;
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             font-size: 14px;
             div{
                 margin-bottom: 5px;
@@ -1479,7 +1474,7 @@ main{
             a{
                 font-size: 17px;
                 color: var(--color-b1);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 transition: color .5s;
                 word-spacing: 5px;
                 &:hover{
@@ -1495,7 +1490,7 @@ main{
             }
             span{
                 font-size: 17px;
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 color: var(--color-f1);
             }
         }
@@ -1518,7 +1513,7 @@ main{
                 display: block;
                 border-left: solid 3px var(--color-f13);
                 color: var(--color-f11);
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 margin-bottom: 20px;
                 padding: 6px 13px;
                 font-size: 16px;
@@ -1567,7 +1562,7 @@ main{
                 color: var(--color-f3);
             }
             p{
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 15px;
                 line-height: 22px;
                 margin-top: 10px;
@@ -1586,7 +1581,7 @@ main{
                 }
                 p{
                     font-size: 15px;
-                    font-family: var(--font-rr);
+                    font-family: var(--font-bl);
                     color: var(--color-f4);
                 }
             }
@@ -1594,7 +1589,7 @@ main{
         .prag p{
             margin-top: 10px;
             font-size: 15px;
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             color: var(--color-f4);
             line-height: 22px;
         }
@@ -1669,7 +1664,7 @@ main{
                     }
                     p{
                         font-size: 15px;
-                        font-family: var(--font-rr);
+                        font-family: var(--font-bl);
                         margin: 0 0 0 5px;
                         a{
                             color: var(--color-b1);
@@ -1687,7 +1682,7 @@ main{
                 color: var(--color-f3);
             }
             p{
-                font-family: var(--font-rr);
+                font-family: var(--font-bl);
                 font-size: 16px;
                 line-height: 22px;
                 margin-top: 20px;
@@ -1744,7 +1739,7 @@ main{
         line-height: 40px;
         text-align: center;
         span{
-            font-family: var(--font-rr);
+            font-family: var(--font-bl);
             font-size: 50px;
             font-weight: bolder;
             color: var(--color-f4);
